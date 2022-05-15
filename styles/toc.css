@@ -1,0 +1,64 @@
+.toc-link {
+    text-decoration: none;
+}
+
+.toc-link:visited {
+    color: inherit;
+}
+
+.page {
+    display: flex;
+}
+
+.c-half {
+    flex: 1;
+}
+
+.toc {
+    padding-left: 20%;
+    padding-top: 100px;
+    padding-right: 100px;;
+
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.toc-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.toc-topic {
+    margin-top: 20px;
+
+    color: rgb(40, 40, 40);
+
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: bold;
+}
+
+.topic-number {
+    color: rgba(225,178,90,255);
+
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.toc-subtopic {
+    margin-top: 8px;
+    padding-left: 30px;
+
+    color: gray;
+
+    font-size: 14px;
+
+    display: flex;
+    justify-content: space-between;
+}

@@ -2,52 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Table of Contents</title>
+    <link rel="stylesheet" href="/styles/toc.css">
+    <link rel="stylesheet" href="/styles/general.css">
 </head>
 <body>
-    <div class="indexList">
-        <h1>Table of Conducts</h1>
-        <ul>
-            <li>Introduction</li>
-            <li>Theory
-                <ul>
-                    <li>Sport</li>
-                    <li>Online Communities</li>
-                    <li><a href="./chapter/design-principles.html">Design Principles</a></li>
-                    <li>Design Methods</li>
-                </ul>
-            </li>
-            <li>Research
-                <ul>
-                    <li>Market Analysis</li>
-                    <li>User Research</li>
-                </ul>
-            </li>
-            <li>Conception
-                <ul>
-                    <li>Ideation</li>
-                    <li>Initial Concepts</li>
-                </ul>
-            </li>
-            <li>Prototyping
-                <ul>
-                    <li>Scope</li>
-                    <li>Iteration 1</li>
-                    <li>Iteration 2</li>
-                    <li>Final Iteration</li>
-                </ul>
-            </li>
-            <li>Evaluation
-                <ul>
-                    <li>Strategy</li>
-                    <li>Results</li>
-                    <li>Discussion</li>
-                </ul>
-            </li>
-            <li>Conclusion</li>
-            <li>Appendix</li>
-        </ul>
+
+    <div class="page">
+        <!--Use of Flex Property, for dynamic padding-->
+        <div class="c-half"></div>
+
+        <!--Actual Start -->
+        <div class="toc">
+            <!--Title of Table-->
+            <div class="toc-title">Table of Contents</div>
+
+            <!--List of Topic and their Subtopics-->
+            <div class="topic-list">
+                <div class="toc-topic">
+                    <a class="toc-link">Introduction</a> <p class="topic-number">9</p>
+                </div>
+            </div>
+
+            <div class="topic-list">
+                <div class="toc-topic">
+                    <a class="toc-link">Theory</a> <p class="topic-number">13</p>
+                </div>
+
+                <div class="toc-subtopic">
+                    <a class="toc-link">Sport</a> <p>25</p>
+                </div>
+                <div class="toc-subtopic">
+                    <a class="toc-link">Online Communities</a> <p>23</p>
+                </div>
+                <div class="toc-subtopic">
+                    <a class="toc-link" href="/chapter/design-principles.html">Design Principles</a> <p>31</p>
+                </div>
+                <div class="toc-subtopic">
+                    <a class="toc-link">Design Methods</a> <p>47</p>
+                </div>
+            </div>
+
+            <div class="topic-list">
+                <div class="toc-topic">
+                    <a class="toc-link">Research</a> <p class="topic-number">55</p>
+                </div>
+                
+                <div class="toc-subtopic">
+                    <a class="toc-link">Market Analysis</a> <p>57</p>
+                </div>
+                <div class="toc-subtopic">
+                    <a class="toc-link">User Research</a><p>73</p>
+                </div>
+            </div>
+
+            <div class="topic-list">
+                <div class="toc-topic">
+                    <a class="toc-link">Conception</a> <p class="topic-number">85</p>
+                </div>
+
+                <div class="toc-subtopic">
+                    <a class="toc-link">Ideation</a> <p>87</p>
+                </div>
+                <div class="toc-subtopic">
+                    <a class="toc-link">Initial Concept</a> <p>91</p>
+                </div>
+            </div>
+
+            <div class="topic-list">
+                <div class="toc-topic">
+                    <a class="toc-link">Prototyping</a> <p class="topic-number">97</p>
+                </div>
+
+                <div class="toc-subtopic">
+                    <a class="toc-link">Scope</a> <p>99</p>
+                </div>
+                <div class="toc-subtopic">
+                    <a class="toc-link">Iteration 1</a> <p>103</p>
+                </div>
+                <div class="toc-subtopic">
+                    <a class="toc-link">Iteration 2</a> <p>109</p>
+                </div>
+                <div class="toc-subtopic">
+                    <a class="toc-link">Final Iteration</a> <p>115</p>
+                </div>
+            </div>
+
+            <div class="topic-list">
+                <div class="toc-topic">
+                    <a class="toc-link">Evaluation</a> <p class="topic-number">121</p>
+                </div>
+
+                <div class="toc-subtopic">
+                    <a class="toc-link">Strategy</a> <p>123</p>
+                </div>
+                <div class="toc-subtopic">
+                    <a class="toc-link">Results</a> <p>129</p>
+                </div>
+                <div class="toc-subtopic">
+                    <a class="toc-link">Discussion</a> <p>139</p>
+                </div>
+            </div>
+
+            <div class="topic-list">
+                <div class="toc-topic">
+                    <a class="toc-link">Conclusion</a> <p class="topic-number">147</p>
+                </div>
+            </div>
+
+            <div class="topic-list">
+                <div class="toc-topic">
+                    <a class="toc-link">Appendix</a> <p class="topic-number">151</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

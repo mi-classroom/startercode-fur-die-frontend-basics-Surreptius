@@ -1,0 +1,118 @@
+/*
+ * Table Of Content Component
+ */
+
+.toc-container {
+    height: 100vh;
+    width: 100vw;
+
+    padding-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    line-height: 2rem;
+}
+
+.toc-container > ul {
+    padding-left: 0;
+}
+
+.toc-container > ul > li > span {
+    color: var(--acc-color2);
+}
+
+.toc-container > * {
+    width: 50%;
+
+    max-width: 400px;
+    min-width: 200px;
+}
+
+/*
+ * Box Component
+ */
+
+.box {
+    height: auto;
+    width: 60vw;
+
+    margin-bottom: 8%;
+}
+
+.box > * + * {
+    margin: 5% 0;
+}
+
+.box blockquote {
+    color: var(--acc-color1);
+}
+
+.box > dl + .figure-img{
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: var(--main-color1);
+}
+
+/*
+ * Figure-Img Component
+ */
+
+.figure-img > img{
+    width: 100%;
+}
+
+.figure-img > figcaption {
+    margin-left: 2rem;
+}
+
+/*
+ * Form
+ */
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field > input {
+    margin: 1% 0 0.5% 0;
+}
+
+.form-field > input + label {
+    font-size: 70%;
+    color: var(--main-color1);
+}
+
+.form-field > input[name=name] {
+    width: 14rem;
+}
+
+.form-field > input[name=email] {
+    width: 20rem;
+}
+
+.form-field > textarea[name=comment] {
+    width: 35rem;
+    height: 10rem;
+}
+
+.form-field > input:focus-within,
+.form-field > textarea:focus-within {
+    border-style: solid;
+    border-radius: 2px;
+    border-color: var(--acc-color2);
+    
+    outline-style: solid;
+    outline-color: var(--acc-color2--light);
+}
+
+.form-field.checkbox {
+    display: block;
+}
+
+.form-field.checkbox > input[type=checkbox] {
+    margin: 0;
+    vertical-align: middle;
+}

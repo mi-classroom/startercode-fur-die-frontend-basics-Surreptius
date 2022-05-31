@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "IBM-Plex-Serif";
+    src: url("/assets/fonts/ibm-plex/IBMPlexSerif-Regular.otf")
+}
+
+@font-face {
+    font-family: "IBM-Plex-Sans";
+    font-weight: 700;
+    src: url("/assets/fonts/ibm-plex/IBMPlexSans-Bold.otf")
+}
+
+@font-face {
+    font-family: "IBM-Plex-Sans";
+    font-weight: 600;
+    src: url("/assets/fonts/ibm-plex/IBMPlexSans-Medium.otf")
+}
+
+body {
+    font-family: "IBM-Plex-Serif" ,Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-family: "IBM-Plex-Sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3, dt {
+    font-family: "IBM-Plex-Sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+li + ul {
+    font-size: 1rem;
+}
